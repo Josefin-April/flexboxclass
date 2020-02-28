@@ -1,11 +1,12 @@
 html {
     background: darkgrey;
     padding: 10px;
-    height: 1500px;
+    height: 700px;
 }
 
 body {
     display: flex;
+    flex-wrap: wrap;
 }
 
 /*Flexbox*/
@@ -14,8 +15,9 @@ body {
     background-color: darkkhaki;
     margin: 10px;
     padding: 20px;
-    width: auto;
+    width: 468px;
     height: 160px;
+    border-radius: 6px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -34,8 +36,9 @@ body {
     background-color: lightpink;
     margin: 10px;
     padding: 20px;
-    width: auto;
+    width: 468px;
     height: 160px;
+    border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +47,7 @@ body {
 .kid-two {
     background-color: #FFFFFF;
     margin: 10px;
+    border-radius: 4px;
     width: 78px;
     height: 120px;   
 }
@@ -52,12 +56,102 @@ body {
     background-color: mediumblue;
     margin: 10px;
     padding: 20px;
-    width: auto;
+    width: 468px;
     height: 160px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .kid-three {
     background-color: midnightblue;
     width: 78px;
     height: 78px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.parent-four {
+    background-color: salmon;
+    margin: 10px;
+    padding: 20px;
+    width: 468px;
+    height: 160px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.kid-four {
+    background-color: seagreen;
+    width: 78px;
+    height: 78px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.kid-four-emo {
+    background-color: seagreen;
+    width: 78px;
+    height: 78px; 
+    margin: 10px;
+    align-self: flex-end;
+    border-radius: 4px;
+}
+
+.parent-five {
+    background-color: yellow;
+    margin: 10px;
+    padding: 20px;
+    width: 468px;
+    height: 160px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kid-five {
+    background-color: violet;
+    width: 78px;
+    height: 120px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.kid-five-baby {
+    background-color: violet;
+    width: 78px;
+    height: 64px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.parent-six {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 20px;
+    width: 468px;
+    height: 160px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kid-six {
+    background-color: tomato;
+    width: 78px;
+    height: 78px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+.kid-six-fat {
+    background-color: tomato;
+    width: 156px;
+    height: 78px;
+    margin: 10px;
+    border-radius: 4px;
 }
